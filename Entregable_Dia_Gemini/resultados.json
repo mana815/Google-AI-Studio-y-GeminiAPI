@@ -1,0 +1,197 @@
+{
+  "modo": "demo",
+  "modelo": "gemini-2.5-flash",
+  "generado_en_utc": "2026-09-28T08:21:35.648167+00:00",
+  "conexion_basica": {
+    "prompt": "Explica en una frase qué es una API de inteligencia artificial.",
+    "respuesta": "[DEMO] Una API de inteligencia artificial permite que un programa envíe datos a un modelo y reciba una respuesta de forma automática."
+  },
+  "sentimiento": [
+    {
+      "idioma": "es",
+      "texto": "Me encanta esta aplicación; es rápida y muy fácil de usar.",
+      "resultado": {
+        "sentimiento": "positivo",
+        "confianza": 0.98,
+        "entidades": [
+          {
+            "texto": "aplicación",
+            "tipo": "producto"
+          }
+        ],
+        "justificacion": "El texto expresa satisfacción clara con la rapidez y facilidad de uso."
+      }
+    },
+    {
+      "idioma": "es",
+      "texto": "El servicio fue terrible y tuve que esperar más de una hora.",
+      "resultado": {
+        "sentimiento": "negativo",
+        "confianza": 0.99,
+        "entidades": [
+          {
+            "texto": "servicio",
+            "tipo": "servicio"
+          }
+        ],
+        "justificacion": "Se usan términos negativos y se destaca una espera excesiva."
+      }
+    },
+    {
+      "idioma": "es",
+      "texto": "La reunión de Acme será el martes a las 10:00 en Barcelona.",
+      "resultado": {
+        "sentimiento": "neutro",
+        "confianza": 0.96,
+        "entidades": [
+          {
+            "texto": "Acme",
+            "tipo": "organización"
+          },
+          {
+            "texto": "Barcelona",
+            "tipo": "lugar"
+          },
+          {
+            "texto": "martes a las 10:00",
+            "tipo": "fecha_hora"
+          }
+        ],
+        "justificacion": "Es información descriptiva sobre una reunión sin valoración emocional."
+      }
+    },
+    {
+      "idioma": "es",
+      "texto": "La cámara está bien, aunque la batería podría durar un poco más.",
+      "resultado": {
+        "sentimiento": "neutro",
+        "confianza": 0.78,
+        "entidades": [
+          {
+            "texto": "cámara",
+            "tipo": "producto"
+          },
+          {
+            "texto": "batería",
+            "tipo": "componente"
+          }
+        ],
+        "justificacion": "Combina una valoración aceptable con una crítica moderada, sin una polaridad dominante."
+      }
+    },
+    {
+      "idioma": "es",
+      "texto": "Estoy muy contento con el soporte de Google en Madrid.",
+      "resultado": {
+        "sentimiento": "positivo",
+        "confianza": 0.98,
+        "entidades": [
+          {
+            "texto": "Google",
+            "tipo": "organización"
+          },
+          {
+            "texto": "Madrid",
+            "tipo": "lugar"
+          }
+        ],
+        "justificacion": "La frase expresa satisfacción explícita con el soporte recibido."
+      }
+    },
+    {
+      "idioma": "en",
+      "texto": "I love the new dashboard; it is clear and incredibly useful.",
+      "resultado": {
+        "sentimiento": "positivo",
+        "confianza": 0.99,
+        "entidades": [
+          {
+            "texto": "dashboard",
+            "tipo": "producto"
+          }
+        ],
+        "justificacion": "La persona expresa entusiasmo y utilidad de forma explícita."
+      }
+    },
+    {
+      "idioma": "en",
+      "texto": "The latest update broke the login screen and I am very frustrated.",
+      "resultado": {
+        "sentimiento": "negativo",
+        "confianza": 0.99,
+        "entidades": [
+          {
+            "texto": "update",
+            "tipo": "software"
+          },
+          {
+            "texto": "login screen",
+            "tipo": "componente"
+          }
+        ],
+        "justificacion": "Describe un fallo causado por la actualización y expresa frustración."
+      }
+    },
+    {
+      "idioma": "en",
+      "texto": "The conference starts on Friday at 9 AM in London.",
+      "resultado": {
+        "sentimiento": "neutro",
+        "confianza": 0.97,
+        "entidades": [
+          {
+            "texto": "Friday at 9 AM",
+            "tipo": "fecha_hora"
+          },
+          {
+            "texto": "London",
+            "tipo": "lugar"
+          }
+        ],
+        "justificacion": "Es un dato informativo sobre fecha, hora y lugar, sin opinión."
+      }
+    },
+    {
+      "idioma": "en",
+      "texto": "The design is fine, but the menu could be easier to navigate.",
+      "resultado": {
+        "sentimiento": "neutro",
+        "confianza": 0.76,
+        "entidades": [
+          {
+            "texto": "design",
+            "tipo": "característica"
+          },
+          {
+            "texto": "menu",
+            "tipo": "componente"
+          }
+        ],
+        "justificacion": "La valoración es mixta y moderada, por lo que se clasifica como neutra."
+      }
+    },
+    {
+      "idioma": "en",
+      "texto": "I am disappointed with the delivery from Example Store.",
+      "resultado": {
+        "sentimiento": "negativo",
+        "confianza": 0.98,
+        "entidades": [
+          {
+            "texto": "Example Store",
+            "tipo": "organización"
+          },
+          {
+            "texto": "delivery",
+            "tipo": "servicio"
+          }
+        ],
+        "justificacion": "La palabra 'disappointed' expresa claramente una experiencia negativa."
+      }
+    }
+  ],
+  "multimodal": {
+    "imagen": "imagen_ejemplo.jpg",
+    "respuesta": "1. Descripción general: imagen didáctica creada para probar una entrada multimodal.\n2. Objetos y elementos: un rectángulo amarillo, un círculo azul, un marco y textos.\n3. Colores y composición: fondo claro, formas simples y composición centrada.\n4. Interpretación/uso: sirve como imagen de ejemplo para comprobar que el script puede enviar una imagen a Gemini."
+  }
+}
